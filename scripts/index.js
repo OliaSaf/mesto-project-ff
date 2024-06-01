@@ -10,7 +10,7 @@ const cardTemplate = document.querySelector("#card-template").content;
 // @todo: Функция создания карточки
 
 function addCard(element, deleteCard) {
-  let cardElement = cardTemplate.querySelector(".places__item").cloneNode(true);
+  const cardElement = cardTemplate.querySelector(".places__item").cloneNode(true);
 
   cardElement.querySelector(".card__title").textContent = element.name;
   cardElement.querySelector(".card__image").src = element.link;
