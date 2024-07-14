@@ -1,3 +1,6 @@
+import '../pages/index.css';
+import { initialCards } from './cards.js';
+
 // @todo: Темплейт карточки
 
 const container = document.querySelector(".content");
